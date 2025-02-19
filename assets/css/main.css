@@ -8,6 +8,24 @@ body{
     padding: 0;
 }
 
+header, footer{
+    background-color: #040013;
+    display:block;
+    padding: 20px;
+}
+
 img.image{
     border-radius:7px;
+}
+
+div{
+    padding:2%;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:4px;
+    margin:auto;
 }
