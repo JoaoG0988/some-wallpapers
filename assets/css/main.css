@@ -5,11 +5,16 @@ body{
     color: #ccf3ea;
 }
 
+.title{
+    font-family: "bebas Neue",serif;
+}
+
 header, footer{
     background-color: #11111d;
     display:block;
     padding: 20px;
 }
+
 
 footer{
     margin-top: 100px;
@@ -58,6 +63,7 @@ a.current-page{
 a{
     text-decoration: none;
     color:#a3dacd;
+    font-family: "bebas Neue",serif;
 }
 
 
