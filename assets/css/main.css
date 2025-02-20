@@ -1,12 +1,12 @@
 body{
-    background-color: #332e44;
+    background-color: #18314F;
     font-family: 'Roboto', sans-serif;
     text-align:center;
-    color: #ffffff;
+    color: #a3dacd;
 }
 
 header, footer{
-    background-color: #332e44;
+    background-color: #0D0630;
     display:block;
     padding: 15px;
 }
@@ -57,7 +57,7 @@ a.current-page{
 
 a{
     text-decoration: none;
-    color:rgb(5, 232, 240)
+    color:#a3dacd;
 }
 
 
@@ -67,8 +67,6 @@ a{
     text-decoration: underline;
 }
 /* NOTA DE AVISO */
-
-
 
 
 /* REDES SOCIAIS */
