@@ -31,6 +31,7 @@ a:hover{
     color:rgb(255, 255, 255);
 }
 
+
 /* HOVERS */
 
 img.image{
@@ -64,7 +65,6 @@ a.current-page{
 a{
     text-decoration: none;
     color:#a3dacd;
-    /* font-family: "bebas Neue",serif; */
 }
 
 
@@ -77,33 +77,33 @@ a{
 
 
 /* REDES SOCIAIS */
+
 .social-media {
     display:flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 20px;;
+    margin-top: 20px;
+    font-size: 1.0rem;
+    text-decoration: none;
+}
+
+
+.icon-text .icon{
+    margin-right: 3px;
 }
 
 p.social-media a{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.0rem;
 }
 
-@keyframes rotate{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+p.social-media a:hover{
+    transform:scale(1.1);
 }
 
-.social-media a:hover{
-    animation: rotate 0.4s ease-in-out;
-}
+
 /* REDES SOCIAIS */
-
-
 
 .pages{
     display: flex;
@@ -117,6 +117,10 @@ p.pages a{
     font-size:16pt;
     padding-left:7px;
     padding-right: 7px;
+}
+
+p.pages a:hover{
+    transform:scale(1.1);
 }
 
 
